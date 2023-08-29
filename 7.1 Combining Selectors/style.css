@@ -1,0 +1,20 @@
+/* <!-- Element Selector !--> */
+h1, h2 {
+    color: blueviolet
+}
+/* <!-- Child Selector !--> */
+.box > p {
+    color: firebrick
+}
+/* <!-- Descendant Selector !--> */
+.box li {
+    color: blue;
+}
+/* <!-- chaining Selector !--> */
+li.done{
+    color: seagreen;
+}
+/* <!-- combining Selector !--> */
+ul p.done {
+    font-size: 0.7rem;
+}
